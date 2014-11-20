@@ -1,0 +1,93 @@
+@-webkit-keyframes wobble  {
+  0%  { -webkit-transform:  rotate(0deg); }
+  20%  { -webkit-transform:  rotate(2deg); }
+  50%  { -webkit-transform:  rotate(-2deg); }
+  100%  { -webkit-transform:  rotate(0deg); }
+}
+.wobble { -webkit-animation: wobble 1s infinite; }
+
+.container
+{
+	padding-top: 4em;
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+
+.tv
+{
+	max-width: 300px;
+	
+}
+
+.youtube
+{
+	max-width: 200px;
+}
+
+
+
+.container
+{
+	margin: auto;
+	max-width: 900px;
+}
+
+.ui.two.column.grid>.row>.column
+{
+	width: 30%;
+	padding: 3em;
+
+}
+
+.ui.two.column.grid
+{
+	max-width: 700px;
+}
+
+#one
+{
+	width: 300px;
+}
+
+.searchMeme-input-left
+{
+	width: 300px;
+}
+
+
+/*MEDIA SIZES??? 
+
+@media screen and (min-width: 320px) {
+
+.container
+{
+	margin: auto;
+	max-width: 300px;
+
+}/*end 320 width */
+
+/*
+@media screen and (min-width: 768px) {
+
+  .container
+  {
+  	margin: auto;
+  	max-width: 700px;
+  	
+  }
+  
+}/*end 768 width */
+
+/*
+@media screen and (min-width: 1140px) {
+
+    .container
+    {
+    	margin:auto;
+    	max-width: 1000px;
+     }
+
+} /*end 1140 width */
+
+
