@@ -12,11 +12,14 @@
 	width: 100%;
 	display: block;
 	text-align: center;
+	font-family: 'Marvel', sans-serif;
+	font-size: 20px;
 }
 
 .tv
 {
 	max-width: 300px;
+	margin-bottom: 2em;
 	
 }
 
@@ -31,6 +34,7 @@
 {
 	margin: auto;
 	max-width: 900px;
+	margin-top: 4em;
 }
 
 .ui.two.column.grid>.row>.column
@@ -43,6 +47,7 @@
 .ui.two.column.grid
 {
 	max-width: 700px;
+	margin-left:200px;
 }
 
 #one
@@ -50,9 +55,13 @@
 	width: 300px;
 }
 
-.searchMeme-input-left
+#two
 {
 	width: 300px;
+}
+.searchMeme-input-left
+{
+	width: 250px;
 }
 
 
